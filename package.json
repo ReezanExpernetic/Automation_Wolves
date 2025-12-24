@@ -1,0 +1,25 @@
+{
+  "name": "wolf-among-us-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests based on The Wolf Among Us and Fables series - Some tests pass, some fail",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "wolf-among-us",
+    "fables"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
